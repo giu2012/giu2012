@@ -1,3 +1,5 @@
+<p align="center"><img src="./.github/assets/hero.svg" alt="GIU animated hero"></p>
+
 # GIU
 
 Developer profile and public GitHub landing page.
