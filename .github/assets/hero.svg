@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#00d9ff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs>
+<rect width="1200" height="360" rx="28" fill="#050505"/>
+<text x="72" y="88" fill="#fff" font-family="system-ui" font-size="38" font-weight="800">GIU</text>
+<text x="72" y="126" fill="#8b8b8b" font-family="monospace" font-size="18">DEVELOPER • CODE • SYSTEMS • LOCAL AI</text>
+<g font-family="monospace" font-size="17">
+<text x="72" y="194" fill="#00d9ff">PYTHON</text><text x="210" y="194" fill="#fff">██████████████</text>
+<text x="72" y="228" fill="#00d9ff">C / C++</text><text x="210" y="228" fill="#fff">███████████</text>
+<text x="72" y="262" fill="#00d9ff">WEB</text><text x="210" y="262" fill="#fff">█████████████</text>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="2" opacity=".8">
+<path d="M760 90 C900 30,1040 95,1120 50"><animate attributeName="d" values="M760 90 C900 30,1040 95,1120 50;M760 120 C900 190,1040 50,1120 110;M760 90 C900 30,1040 95,1120 50" dur="5s" repeatCount="indefinite"/></path>
+<path d="M790 190 C900 130,1030 240,1135 175"><animate attributeName="d" values="M790 190 C900 130,1030 240,1135 175;M790 160 C920 250,1030 120,1135 220;M790 190 C900 130,1030 240,1135 175" dur="4s" repeatCount="indefinite"/></path>
+</g>
+<g fill="#00d9ff"><circle cx="760" cy="90" r="6"><animate attributeName="cy" values="90;120;90" dur="2s" repeatCount="indefinite"/></circle><circle cx="1120" cy="50" r="6"><animate attributeName="r" values="5;10;5" dur="1.6s" repeatCount="indefinite"/></circle></g>
+</svg>
