@@ -1,16 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
-<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#00d9ff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs>
-<rect width="1200" height="360" rx="28" fill="#050505"/>
-<text x="72" y="88" fill="#fff" font-family="system-ui" font-size="38" font-weight="800">GIU</text>
-<text x="72" y="126" fill="#8b8b8b" font-family="monospace" font-size="18">DEVELOPER • CODE • SYSTEMS • LOCAL AI</text>
-<g font-family="monospace" font-size="17">
-<text x="72" y="194" fill="#00d9ff">PYTHON</text><text x="210" y="194" fill="#fff">██████████████</text>
-<text x="72" y="228" fill="#00d9ff">C / C++</text><text x="210" y="228" fill="#fff">███████████</text>
-<text x="72" y="262" fill="#00d9ff">WEB</text><text x="210" y="262" fill="#fff">█████████████</text>
-</g>
-<g fill="none" stroke="url(#g)" stroke-width="2" opacity=".8">
-<path d="M760 90 C900 30,1040 95,1120 50"><animate attributeName="d" values="M760 90 C900 30,1040 95,1120 50;M760 120 C900 190,1040 50,1120 110;M760 90 C900 30,1040 95,1120 50" dur="5s" repeatCount="indefinite"/></path>
-<path d="M790 190 C900 130,1030 240,1135 175"><animate attributeName="d" values="M790 190 C900 130,1030 240,1135 175;M790 160 C920 250,1030 120,1135 220;M790 190 C900 130,1030 240,1135 175" dur="4s" repeatCount="indefinite"/></path>
-</g>
-<g fill="#00d9ff"><circle cx="760" cy="90" r="6"><animate attributeName="cy" values="90;120;90" dur="2s" repeatCount="indefinite"/></circle><circle cx="1120" cy="50" r="6"><animate attributeName="r" values="5;10;5" dur="1.6s" repeatCount="indefinite"/></circle></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">GIU — Developer</title>
+  <desc id="desc">Developer focused on local AI, systems, automation and native software.</desc>
+  <defs>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#7de7ff"/>
+      <stop offset="1" stop-color="#00b8ff"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00b8ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00b8ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#00b8ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="round"><rect width="1200" height="360" rx="28"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="#050505"/>
+  <g clip-path="url(#round)">
+    <path d="M0 300H1200M0 180H1200M0 60H1200" stroke="#ffffff" stroke-opacity=".035"/>
+    <path d="M120 0V360M300 0V360M480 0V360M660 0V360M840 0V360M1020 0V360" stroke="#ffffff" stroke-opacity=".025"/>
+
+    <circle cx="1030" cy="145" r="115" fill="#00b8ff" opacity=".035" filter="url(#glow)"/>
+    <circle cx="1030" cy="145" r="72" fill="none" stroke="#00b8ff" stroke-opacity=".18"/>
+    <circle cx="1030" cy="145" r="42" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+
+    <path d="M650 280 C760 190 815 285 895 205 S1040 120 1200 175" fill="none" stroke="url(#cyan)" stroke-width="2.2" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-420" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" values="20 420;140 300;20 420" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M720 325 C820 250 885 300 960 240 S1090 205 1200 250" fill="none" stroke="url(#fade)" stroke-width="1.5"/>
+
+    <circle cx="895" cy="205" r="4" fill="#7de7ff" filter="url(#glow)">
+      <animate attributeName="r" values="3;6;3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="145" r="3" fill="#ffffff">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="72" y="142" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">GIU</text>
+    <rect x="75" y="168" width="74" height="3" rx="2" fill="url(#cyan)"/>
+    <text x="72" y="213" fill="#ffffff" fill-opacity=".82" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="3">DEVELOPER · LOCAL AI · SYSTEMS</text>
+    <text x="72" y="250" fill="#ffffff" fill-opacity=".46" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.2">PYTHON  /  C++  /  TYPESCRIPT  /  SWIFT  /  AUTOMATION</text>
+
+    <g transform="translate(72 292)">
+      <rect width="8" height="8" rx="2" fill="#00b8ff"/>
+      <text x="20" y="8" fill="#ffffff" fill-opacity=".45" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">BUILD · TEST · DOCUMENT</text>
+    </g>
+
+    <text x="1118" y="52" text-anchor="end" fill="#ffffff" fill-opacity=".3" font-family="monospace" font-size="10" letter-spacing="2">LOCAL-FIRST</text>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="358.5" rx="27.25" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
 </svg>
